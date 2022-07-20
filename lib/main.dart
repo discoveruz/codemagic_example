@@ -1,3 +1,4 @@
+import 'package:codemagic_example/envs/env.dart';
 import 'package:codemagic_example/screens/lottie_page.dart';
 import 'package:codemagic_example/screens/simple_page.dart';
 import 'package:flutter/material.dart';
@@ -42,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Bu Env Classdan keldi ${Env.baseUrl}',
             ),
             TextButton(
               onPressed: () {
