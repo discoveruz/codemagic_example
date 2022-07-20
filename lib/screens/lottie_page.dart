@@ -14,9 +14,9 @@ class LottiePage extends StatelessWidget {
         children: [
           const CircleAvatar(
             backgroundColor: Colors.transparent,
-            radius: 100,
+            radius: 450,
             backgroundImage: NetworkImage(
-              'https://picsum.photos/200/300',
+              'https://picsum.photos/600/600',
             ),
           ),
           LottieBuilder.network(
