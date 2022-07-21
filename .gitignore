@@ -11,7 +11,7 @@
 migrate_working_dir/
 .metadata
 
-
+.vscode/
 # IntelliJ related
 *.iml
 *.ipr
@@ -47,3 +47,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# security related
+/lib/envs/
